@@ -143,32 +143,32 @@ public class Nisha {
 	          int tot = pen1 + pen2 + pen3 + pen4 + pen5;
 	          System.out.println("total cost ="+total);
 	       
-              //3.Ram scored marks in 3 subjects. write a java program to calculate the average mark.
+           //3.Ram scored marks in 3 subjects. write a java program to calculate the average mark.
 	       
 	       
 	       int sub1 = 97;
 	       int sub2 = 98;
 	       int sub3 = 99;
 	        
-	         int average_mark = sub1 + sub2 + sub3/3;
-	         System.out.println("sub1 + sub2 + sub3 :"+average_mark);
+	       int average_mark = sub1 + sub2 + sub3/3;
+	       System.out.println("sub1 + sub2 + sub3 :"+average_mark);
 	       
 	       
-        // 4.A pizza cost ₹250.write a java program to calculate the total price for 4 pizzas	  
+          // 4.A pizza cost ₹250.write a java program to calculate the total price for 4 pizzas	  
 	       
 	       int worker;
 	       
 	       double total_price = 4*250;
 	       System.out.println("4*worker" + total_price);
 	       
-     	       //5.A worker gets ₹800 salary per day.write a java program to calculate salary for 30 days.
+          //5.A worker gets ₹800 salary per day.write a java program to calculate salary for 30 days.
 	       
 	       
 	       int wrk;
 	       double calculate_salary = 800/30;
 	       System.out.println("800/30"+calculate_salary);
 	      
-//         6.A mobile phone price is ₹15000.write a java program to add 18% GST and find the final amount
+           // 6.A mobile phone price is ₹15000.write a java program to add 18% GST and find the final amount
 	       
 	       
 	       int price;
@@ -242,6 +242,87 @@ public class Nisha {
 	       
 	       initial_amount *= after_savings_doubles;
 	       System.out.println("initia_amount:"+after_savings_doubles);
+	       
+	       
+	     //11.A water tank contains 500 lit of water.125 lit are used.To find the remaining water
+	       
+	       int water_tank = 500;
+	       int water_used = 125;
+	       double remaining_water = water_tank - water_used;
+	       System.out.println("remaining_water:"+remaining_water);
+	       
+	    //12.A classroom has 48 students.they are divided equally into 6 groups.to find students in each group.
+	       
+	       int total_students = 48;
+	       int divided_groups = 6;
+	       double each_group = total_students/divided_groups;
+	       System.out.println("each_group:"+each_group);
+	       
+	    //13.A customer buys 2 shirts costing ₹750 each.To calculate the total bill.
+	       
+	       int shirt_cost = 750;
+	       int customer_buys = 2;
+	       double total_bill = customer_buys*shirt_cost;
+	       System.out.println("total_bill:"+total_bill);
+	       
+	    //14.A student travels 12km daily to college.to calculate the total distance traveled in 7 days.
+	       
+	       int student_travels = 12;
+	       int distance_traveled = 7;
+	       double total_distance = student_travels*distance_traveled;
+	       System.out.println("total_distance:"+total_distance);
+	       
+	   //15.A company gives a bonus of ₹5000 along with salary ₹25000.to calculate total salary.
+	       
+	       int company_bonus = 5000;
+	       int along_salary = 25000;
+	       double total_salary = company_bonus + along_salary;
+	       System.out.println("total_salary:"+total_salary);
+	       
+	  //16.A juice shop sells one juice for ₹40.to calculate amount for 8 juices.
+	       
+	       int one_juice = 40;
+	       int amount_juices = 8;
+	       double calculate_amount = one_juice*amount_juices;
+	       System.out.println("calculate_amount:"+calculate_amount);	 
+	       
+	  //17.A person deposits ₹10000 in a bank with 5% simple interest.to calculate interest amount.
+	       
+	       int person_deposits = 1000;
+	       int simple_interst = 500;
+	       double calculate_interest = person_deposits + simple_interst;
+	       System.out.println("calculate_interest:"+calculate_interest);
+	       
+	  //18.A cricket player scored runs:45,55 and 70 in 3 matches.TO calculate total runs.
+	       
+	       int scored1 = 45;
+	       int scored2 = 55;
+	       int scored3 = 70;
+	       int matches = 3;
+	       int total_scored = 170;
+	       double calculate_totalrun = total_scored*matches;
+	       System.out.println("calculate_totalrun:"+calculate_totalrun);
+	  
+	 //19.A students total marks in 450 out of 500.to calculate percentage.
+	       
+	      int total_marks = 450;
+	      int max_marks = 500;
+	      double calculate_percentage = total_marks*100/max_marks;
+	      System.out.println("calculate_percentage:"+calculate_percentage);
+	      
+     //20. A car travels 240km in 4hrs.to calculate speed.
+	      
+	     int car_travels = 240;
+	     int hrs = 4;
+	     double speed = car_travels*hrs;
+	     System.out.println("speed:"+speed);
+	      
+	      
+	       
+	       
+	       
+	       
+	    
 	       
 	       
 	      
