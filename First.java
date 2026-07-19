@@ -109,6 +109,162 @@ public class First {
 //		System.out.println("odd:"+odd);
 //		
 		
+//6.search an element in array
+		
+//		int a[]= {10,20,30,40};
+//		int search = 30;
+//		boolean found = false;
+//		for(int i=0;i<a.length;i++) {
+//			if(a[i]==search) {
+//				System.out.println("element found at index:" +i);
+//				found = true;
+//				break;
+//				
+//			}
+//		}
+//		 
+//		if(found) {
+//			System.out.println("element not found");
+//		}
+		
+		//7.sort an array (ascending order)
+		
+		
+//		 int arr[]= {5,2,8,1,9};
+//		 for (int i=0;i<arr.length;i++) {
+//			 for(int j=0;j<arr.length;j++) {
+//				 
+//				 if(arr[i]<arr[j]) {
+//					 
+//					 int temp =arr[i];
+//					 arr[i]=arr[j];
+//					 arr[j]=temp;
+//				 }
+//			 }
+//		 }
+//		 
+//		 
+//			System.out.println("array in ascending order:");
+//			for(int i=0;i<arr.length;i++) {
+//				System.out.println(arr[i]+"");
+//			}
+		
+		
+		//8.copy one array to another
+		
+//		int c[]= {10,15,20,25};
+//		int d[] =new int[c.length];
+//		for(int i=0;i<c.length;i++){
+//			d[i]=c[i];
+//		}
+//		
+//		System.out.println("copy array");
+//		
+//		for(int i=0;i<d.length;i++) {
+//			System.out.println(c[i]+" ");
+//		}
+		
+		
+		
+		//9.find duplicate element in array
+		
+//		  int d[]= {1,2,3,2,4,5,1};
+//		  
+//		  System.out.println("duplicate element");
+//		  
+//		   for(int i=0;i<d.length;i++) {
+//			   
+//			   for(int j=0;j<d.length;j++) {
+//				   if(d[i]==d[j]) {
+//					   System.out.println(d[i]+" ");
+//				   }
+//			   }
+//		   }
+		
+		
+		 //10.merge two numbers 
+		   
+		   
+//		  int a[]= {1,2,3,4};
+//		  
+//		  int b[]= {5,6,7,8};
+//		  
+//		  
+//		  int c[]= new int[a.length+b.length];
+//		  
+//		   for(int i=0;i<a.length;i++) {
+//			   
+//			   c[i]= a[i];
+//			   
+//		   }
+//		   for(int i=0;i<b.length;i++) {
+//			   c[a.length + i]=b[i];
+//			   
+//		   }
+//		    
+//		  System.out.println("merge array:");
+//		   for(int i=0;i<c.length;i++) {
+//			   System.out.println(c[i]+" ");
+//		   }
+//		  
+		  
+		  
+		  
+		  //11.second largest element
+		
+		
+//		 int s[]= {10,50,30,20,40};
+//		 
+//		 for(int i=0;i<s.length;i++) {
+//			 for(int j=0;j<s.length;j++) {
+//				 if(s[i]>s[j]) {
+//					 int temp =s[i];
+//					 s[i]=s[j];
+//					 s[j]=temp;
+//				 }
+//			 }
+//		 }
+//		 	System.out.println("second largest:"+s[s.length-2]);	 
+//		 
+	
+		  
+		  //12.frequency of each element 
+		
+		
+//		 int f[]= {1,2,2,3,1,1};
+//		 
+//		 for(int i=0;i<f.length;i++) {
+//		    
+//			 int count =1;
+//			 
+//			 if(f[i]==1)
+//				 continue;
+//			 for(int j=0;j<f.length;j++) {
+//				 if(f[i]==f[j]) {
+//					 count++;
+//					 f[j]=1;
+//					 
+//					 
+//					 
+//				 }
+//			 }
+//			 
+//			 System.out.println(f[i]+"="+count);
+//			 
+//		 }
+//		 
+		  
+		  
+		  
+		  
+		  
+		  
+		
+		
+	
+	}
+
+}
 		
 		
 		
@@ -128,6 +284,6 @@ public class First {
 		
 		
 	
-	}
+	
 
-}
+
