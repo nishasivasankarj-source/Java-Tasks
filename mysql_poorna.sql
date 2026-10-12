@@ -1,0 +1,1 @@
+SELECT * FROM poorna_tech.info;
